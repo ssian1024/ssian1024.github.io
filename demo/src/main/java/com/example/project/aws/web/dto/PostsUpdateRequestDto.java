@@ -1,4 +1,4 @@
-package com.example.project.user.web.dto;
+package com.example.project.aws.web.dto;
 
 import lombok.Builder;
 import lombok.Getter;

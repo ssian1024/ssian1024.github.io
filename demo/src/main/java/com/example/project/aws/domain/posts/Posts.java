@@ -1,6 +1,6 @@
-package com.example.project.user.domain.posts;
+package com.example.project.aws.domain.posts;
 
-import com.example.project.user.domain.BaseTimeEntity;
+import com.example.project.aws.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,12 +13,16 @@ import javax.persistence.*;
 public class Posts extends BaseTimeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    @Column
+    private long id;
+
+    @Column(length = 500, nullable = false)
     private String title;
-    @Column
+
+    @Column(columnDefinition = "TEXT" , nullable = false)
     private String content;
+
     private String author;
+
     @Builder
     public Posts(String title, String content, String author){
         this.title = title;
@@ -30,4 +34,6 @@ public class Posts extends BaseTimeEntity {
         this.title = title;
         this.content=content;
     }
+
+
 }

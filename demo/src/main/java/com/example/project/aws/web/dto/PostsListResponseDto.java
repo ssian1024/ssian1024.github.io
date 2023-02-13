@@ -1,6 +1,6 @@
-package com.example.project.user.web.dto;
+package com.example.project.aws.web.dto;
 
-import com.example.project.user.domain.posts.Posts;
+import com.example.project.aws.domain.posts.Posts;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

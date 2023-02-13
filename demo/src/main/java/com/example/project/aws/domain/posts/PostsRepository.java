@@ -1,6 +1,6 @@
-package com.example.project.user.repository;
+package com.example.project.aws.domain.posts;
 
-import com.example.project.user.domain.posts.Posts;
+import com.example.project.aws.domain.posts.Posts;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

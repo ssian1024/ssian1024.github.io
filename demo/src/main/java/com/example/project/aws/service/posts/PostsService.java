@@ -1,11 +1,11 @@
-package com.example.project.user.service.posts;
+package com.example.project.aws.service.posts;
 
-import com.example.project.user.domain.posts.Posts;
-import com.example.project.user.repository.PostsRepository;
-import com.example.project.user.web.dto.PostsListResponseDto;
-import com.example.project.user.web.dto.PostsResponseDto;
-import com.example.project.user.web.dto.PostsSaveRequestDto;
-import com.example.project.user.web.dto.PostsUpdateRequestDto;
+import com.example.project.aws.domain.posts.Posts;
+import com.example.project.aws.domain.posts.PostsRepository;
+import com.example.project.aws.web.dto.PostsListResponseDto;
+import com.example.project.aws.web.dto.PostsResponseDto;
+import com.example.project.aws.web.dto.PostsSaveRequestDto;
+import com.example.project.aws.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
